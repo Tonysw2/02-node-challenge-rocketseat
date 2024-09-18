@@ -18,4 +18,3 @@ const envSchema = z.object({
 
 export const env = envSchema.parse(process.env)
 
-console.log(env)
